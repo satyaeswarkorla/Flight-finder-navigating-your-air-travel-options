@@ -1,2 +1,74 @@
-# Flight-finder-navigating-your-air-travel-options
-Flight Finder: Navigating Your Air Travel Options is a web application that helps users search, compare, and analyze flights based on destination, date, budget, and airline preferences. It provides real-time data, smart filters, and a clean interface to make air travel planning faster, easier, and more efficient.
+# flightfinder-navigating-your-air-travel-options
+flight ticket booking
+
+demo video: https://drive.google.com/file/d/10e9juB5ESzDgeLq-fnOf2mP0MUzfuHZW/view?usp=drive_link
+
+
+A React-based flight booking application that allows users to search and book flights.
+
+Table of Contents
+- #overview
+- #features
+- #technologies-used
+- #installation
+- #demo
+- #documentation
+- #project-structure
+- #contributing
+- #license
+
+Overview
+This project is a flight booking application built using React. It allows users to search for flights, view flight details, and book flights.
+
+Features
+- Search flights by departure and arrival cities
+- View flight details, including departure and arrival times, flight duration, and price
+- Book flights and view booking confirmation
+- User-friendly interface with responsive design
+
+Technologies Used
+- React
+- JavaScript
+- HTML/CSS
+- Node.js (for backend API)
+- Express.js (for backend API)
+- MongoDB (for database)
+
+Installation
+1. Clone the repository: git clone 
+2. Install dependencies: npm install
+3. Start the application: npm start
+
+
+Project Structure
+-flight_booking_app/
+
+├── public/
+
+│   └── index.html
+
+├── src/
+
+│   ├── components/
+
+│   │   └── FlightSearch.js
+
+│   ├── App.js
+
+│   ├── index.js
+
+│   └── App.css
+
+├── package.json
+
+└── README.md
+
+- components/: Reusable React components
+- App.js: Main application component
+- index.js: Entry point for the application
+
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
+
+License
+This project is licensed under the MIT License. See LICENSE for details.
